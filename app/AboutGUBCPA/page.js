@@ -35,7 +35,7 @@ export default function AboutGUBCPA() {
               alt="GUBCPA Logo"
               width={500}
               height={500}
-              className="rounded-lg shadow-xl shadow-yellow-300"
+              className="rounded-lg shadow-xl shadow-indigo-300"
             />
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function AboutGUBCPA() {
           </h2>
           <div className="grid md:grid-cols-2 gap-10 mt-10">
             {/* Advanced Batch */}
-            <div className="bg-gradient-to-r from-yellow-400 to-yellow-600 p-8 rounded-lg shadow-lg text-white text-center">
+            <div className="bg-gradient-to-r from-indigo-400 to-indigo-600 p-8 rounded-lg shadow-lg text-white text-center">
               <h3 className="text-2xl font-semibold">Advanced Batch</h3>
               <p className="mt-2 text-lg">
                 Focused on ICPC-style problem-solving, advanced algorithms, and
@@ -74,7 +74,7 @@ export default function AboutGUBCPA() {
           <div className="grid md:grid-cols-2 gap-10 mt-10">
             {/* Mazed Hasan Parag */}
             <div className="bg-white p-6 border border-gray-300 rounded-lg shadow-lg flex items-center gap-6">
-              <div className="w-20 h-20 bg-yellow-500 rounded-full flex items-center justify-center text-3xl font-bold text-white">
+              <div className="w-20 h-20 bg-indigo-500 rounded-full flex items-center justify-center text-3xl font-bold text-white">
                 M
               </div>
               <div>

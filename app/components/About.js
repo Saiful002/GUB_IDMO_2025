@@ -14,26 +14,20 @@ const About = () => {
       className="py-8 mt-8 relative rounded-3xl shadow-xl bg-gradient-to-br from-gray-50 via-white to-gray-200"
     >
       {/* Floating Gradient Circles */}
-      <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-300 opacity-30 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-yellow-500 opacity-20 rounded-full blur-3xl"></div>
+      <div className="absolute top-0 left-0 w-72 h-72 bg-indigo-300 opacity-40 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-indigo-500 opacity-30 rounded-full blur-3xl"></div>
 
 
       <div className="relative z-10 max-w-6xl md:mx-auto mx-2 text-left md:text-left sm:my-16 md:my-16">
         <h2 className="text-4xl font-bold mb-6 text-black">
-          About GUB IDPC 2025
+          About GUB IDMO 2025
         </h2>
         <p className="sm:text-lg md:text-lg mb-8 text-sm px-2 text-black">
-          GUB IDPC 2025 is the premier inter-department programming contest
-          hosted by the Green University Competitive Programming Arena (GUBCPA).
-          It brings together the brightest minds from Green University to
-          showcase their programming skills. The contest is open to all
-          undergraduate students, with teams of three collaborating under a
-          faculty mentor.
-          <br />
-          <br />
-          <b>Students from any department can participate</b> and
-          take part in this exciting challenge. Join us to make GUB IDPC 2025 an
-          unforgettable experience!
+        GUB Inter Department Math Olympiad 2025 is the ultimate mathematical competition hosted by the Green University Competitive Programming Arena (GUBCPA). It unites the sharpest minds from Green University to test their problem-solving abilities and mathematical expertise. This prestigious contest is open to all undergraduate students, with teams of three working together under the guidance of a faculty mentor.
+
+<b>Students from any department are encouraged to participate</b> and embrace the challenge of logical reasoning and analytical thinking. Join us to make GUB Inter Department Math Olympiad 2025 an inspiring and unforgettable experience!
+
+
         </p>
         <hr className="border-gray-300 mb-6" />
         <p className="font-semibold px-2 text-black">
@@ -57,7 +51,7 @@ const About = () => {
             >
               {stat.isNumber ? (
                 <>
-                  <span className="text-2xl font-extrabold bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 text-transparent bg-clip-text">
+                  <span className="text-2xl font-extrabold bg-gradient-to-r from-indigo-400 via-indigo-500 to-indigo-600 text-transparent bg-clip-text">
                     {stat.value}
                   </span>
                   <span className="text-black text-sm font-medium">

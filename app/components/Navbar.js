@@ -55,7 +55,7 @@ const Navbar = () => {
         <nav className="hidden md:flex space-x-8">
           <Link
             href="/"
-            className="text-gray-800 hover:text-yellow-400 transition-all duration-300"
+            className="text-gray-800 hover:text-indigo-400 transition-all duration-300"
           >
             Home
           </Link>
@@ -68,7 +68,7 @@ const Navbar = () => {
           >
             <Link
               href="/AboutGUBCPA"
-              className="text-gray-800 hover:text-yellow-400 transition-all duration-300"
+              className="text-gray-800 hover:text-indigo-400 transition-all duration-300"
             >
               About GUBCPA
             </Link>
@@ -96,19 +96,19 @@ const Navbar = () => {
 
           <Link
             href="/EventSchedule"
-            className="text-gray-800 hover:text-yellow-400 transition-all duration-300"
+            className="text-gray-800 hover:text-indigo-400 transition-all duration-300"
           >
             Schedule
           </Link>
           <Link
             href="/PrizePool"
-            className="text-gray-800 hover:text-yellow-400 transition-all duration-300"
+            className="text-gray-800 hover:text-indigo-400 transition-all duration-300"
           >
             Prize Pool
           </Link>
           <Link
             href="/Register"
-            className="text-gray-800 hover:text-yellow-400 transition-all duration-300"
+            className="text-gray-800 hover:text-indigo-400 transition-all duration-300"
           >
             Registration
           </Link>
@@ -133,35 +133,35 @@ const Navbar = () => {
       >
         <Link
           href="/"
-          className="text-xl hover:text-yellow-400"
+          className="text-xl hover:text-indigo-400"
           onClick={toggleMenu}
         >
           Home
         </Link>
         <Link
           href="/AboutGUBCPA"
-          className="text-xl hover:text-yellow-400"
+          className="text-xl hover:text-indigo-400"
           onClick={toggleMenu}
         >
           About GUBCPA
         </Link>
         <Link
           href="/PrizePool"
-          className="text-xl hover:text-yellow-400"
+          className="text-xl hover:text-indigo-400"
           onClick={toggleMenu}
         >
           Prize Pool
         </Link>
         <Link
           href="/EventSchedule"
-          className="text-xl hover:text-yellow-400"
+          className="text-xl hover:text-indigo-400"
           onClick={toggleMenu}
         >
           Schedule
         </Link>
         <Link
           href="/Register"
-          className="text-xl hover:text-yellow-400"
+          className="text-xl hover:text-indigo-400"
           onClick={toggleMenu}
         >
           Registration

@@ -21,8 +21,8 @@ const ProblemSettersSlider = () => {
   return (
     <section className="relative flex flex-col items-center justify-center sm:px-16 md:px-16 px-6 py-16 bg-white overflow-hidden mt-24 py-16">
       {/* Floating Gradient Circles */}
-      <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-300 opacity-30 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-yellow-500 opacity-20 rounded-full blur-3xl"></div>
+      <div className="absolute top-0 left-0 w-72 h-72 bg-indigo-300 opacity-40 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-indigo-500 opacity-30 rounded-full blur-3xl"></div>
    
 
       <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">

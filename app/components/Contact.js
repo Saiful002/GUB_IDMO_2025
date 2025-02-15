@@ -9,10 +9,10 @@ const Contact = () => {
       bg-gradient-to-br from-gray-50 via-white to-gray-200 overflow-hidden"
     >
        {/* Floating Gradient Circles */}
-       <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-300 opacity-30 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-yellow-500 opacity-20 rounded-full blur-3xl"></div>
+       <div className="absolute top-0 left-0 w-72 h-72 bg-indigo-300 opacity-40 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-indigo-500 opacity-30 rounded-full blur-3xl"></div>
       {/* Contact Card */}
-      <div className="bg-yellow-200 text-black px-8 py-16 rounded-2xl shadow-xl w-full max-w-md backdrop-blur-lg">
+      <div className="bg-indigo-200 text-black px-8 py-16 rounded-2xl shadow-xl w-full max-w-md backdrop-blur-lg">
         <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
         <hr className="border-gray-500 mb-4" />
 

@@ -166,8 +166,8 @@ const RegistrationPage = () => {
   return (
     <section className="relative flex flex-col items-center justify-center sm:px-16 md:px-16 px-6 py-16 my-8 bg-white overflow-hidden">
       {/* Floating Gradient Circles */}
-      <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-300 opacity-10 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-yellow-500 opacity-10 rounded-full blur-3xl"></div>
+      <div className="absolute top-0 left-0 w-72 h-72 bg-indigo-300 opacity-30 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-indigo-500 opacity-10 rounded-full blur-3xl"></div>
 
       <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
         Registration Form
@@ -386,11 +386,11 @@ const RegistrationPage = () => {
         {/* Register Button */}
         <button
           type="submit"
-          className={`mt-6 px-8 py-4 rounded-xl font-semibold shadow-lg border border-yellow/50
+          className={`mt-6 px-8 py-4 rounded-xl font-semibold shadow-lg border border-indigo/50
             ${
               loading
-                ? "bg-yellow-400 text-gray-700 cursor-not-allowed"
-                : "bg-yellow-300 text-gray-900 hover:bg-yellow-400 hover:scale-105 hover:shadow-xl hover:border-yellow-500 transition-all duration-300"
+                ? "bg-indigo-400 text-gray-700 cursor-not-allowed"
+                : "bg-indigo-300 text-gray-900 hover:bg-indigo-400 hover:scale-105 hover:shadow-xl hover:border-indigo-500 transition-all duration-300"
             }
           `}
           disabled={loading}

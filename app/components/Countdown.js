@@ -29,8 +29,8 @@ const Countdown = () => {
   return (
     <section className="relative flex flex-col items-center justify-center py-16 bg-gradient-to-br from-gray-50 via-white to-gray-200 mt-16">
        {/* Floating Gradient Circles */}
-       <div className="absolute top-0 left-0 w-72 h-72 bg-yellow-300 opacity-30 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-yellow-500 opacity-20 rounded-full blur-3xl"></div>
+       <div className="absolute top-0 left-0 w-72 h-72 bg-indigo-300 opacity-40 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-indigo-500 opacity-30 rounded-full blur-3xl"></div>
 
       {/* Glassmorphism Background Layer */}
       <div className="absolute inset-0 bg-white/30 backdrop-blur-lg rounded-3xl shadow-lg"></div>
@@ -47,7 +47,7 @@ const Countdown = () => {
               key={label}
               className="bg-white bg-opacity-60 backdrop-blur-sm rounded-lg shadow-xl w-20 sm:w-24 md:w-32 h-32 flex flex-col items-center justify-center text-center transform transition-transform duration-500 hover:scale-110 hover:shadow-2xl"
             >
-              <span className="text-3xl sm:text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 text-transparent bg-clip-text">
+              <span className="text-3xl sm:text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-indigo-400 via-indigo-500 to-indigo-600 text-transparent bg-clip-text">
                 {String(Object.values(timeLeft)[index]).padStart(2, "0")}
               </span>
               <div className="text-xs sm:text-sm md:text-base mt-2 text-gray-800">
@@ -58,8 +58,9 @@ const Countdown = () => {
         </div>
 
         <p className="sm:text-lg md:text-lg text-sm max-w-xl mx-auto md:mx-0 mt-6 text-center text-gray-900">
-          Don’t miss out on the opportunity to be part of the most exciting
-          programming competition of the year. Time is ticking!
+      The Inter Department Math Olympiad is the perfect stage to showcase your problem-solving skills, challenge your limits, and compete against the sharpest minds. The clock is ticking—are you ready to take on the challenge?
+
+
         </p>
       </div>
     </section>
